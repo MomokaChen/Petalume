@@ -6,7 +6,9 @@ A lightweight C++ game engine written from scratch. My own long-term project, ea
 
 ## 简介
 
+Petalume 是一款自研的 2D OpenGL 引擎，目前处于早期开发阶段，未来规划将支持 3D 功能。项目重心在于渲染管线、引擎架构以及底层图形技术，后续会逐步补充场景管理、资源加载与物理系统。本项目仅作个人学习用途，非商业性质，全部代码开放以供参考。
 
+Petalume is a self-developed 2D OpenGL engine in early development, with a future roadmap to support 3D. It focuses on rendering pipelines, engine architecture, and low-level graphics, and will gradually add scene management, asset loading, and physics. Purely for personal learning, non‑commercial, all code open for reference.
 
 **项目状态：开发早期（应用骨架已完成）**
 
@@ -51,4 +53,3 @@ Petalume/
 ## 许可证
 
 [GPL-3.0](LICENSE)
-```
