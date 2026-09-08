@@ -1,0 +1,3 @@
+[submodule "Petalume/vendor/spdlog"]
+	path = Petalume/vendor/spdlog
+	url = https://github.com/gabime/spdlog
