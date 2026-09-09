@@ -28,8 +28,8 @@ project "Petalume"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
-    -- pchheader "plpch.h"
-    -- pchsource "Petalume/src/plpch.cpp"
+    pchheader "plpch.h"
+    pchsource "Petalume/src/plpch.cpp"
 
     files
     {
@@ -39,7 +39,7 @@ project "Petalume"
 
     includedirs
     {
-        -- "%{prj.name}/src",
+        "%{prj.name}/src",
         "%{prj.name}/vendor/spdlog/include",
         -- "%{IncludeDir.GLFW}",
         -- "%{IncludeDir.Glad}",

@@ -4,6 +4,9 @@
     <Filter Include="Petalume">
       <UniqueIdentifier>{62B3AEC4-4E80-09D0-7799-F77763C53E5E}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Petalume\Events">
+      <UniqueIdentifier>{067D7039-7208-DEFD-7B19-61F2E7233AFE}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Petalume.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Petalume\EntryPoint.h">
       <Filter>Petalume</Filter>
     </ClInclude>
+    <ClInclude Include="src\Petalume\Events\ApplicationEvent.h">
+      <Filter>Petalume\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Petalume\Events\Event.h">
+      <Filter>Petalume\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Petalume\Events\KeyEvent.h">
+      <Filter>Petalume\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Petalume\Events\MouseEvent.h">
+      <Filter>Petalume\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Petalume\Log.h">
       <Filter>Petalume</Filter>
     </ClInclude>
+    <ClInclude Include="src\plpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Petalume\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Petalume\Log.cpp">
       <Filter>Petalume</Filter>
     </ClCompile>
+    <ClCompile Include="src\plpch.cpp" />
   </ItemGroup>
 </Project>
